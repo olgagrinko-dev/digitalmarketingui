@@ -1,3 +1,122 @@
 * {
+    margin: 0;
+    padding: 0;
+    font: 400 14px 'Oswald';
+    font-style: normal;
+}
 
+body {
+    width: 1440px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    padding-bottom: 25px;
+}
+
+.img-logo {
+    background-image: url(./img/IMAGE\ 1.svg);
+    background-repeat: no-repeat;
+    width: 93px;
+    height: 32px;
+    margin-left: 120px;
+
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav p {
+    font: 400 14px 'Oswald';
+    text-transform: uppercase;
+    color: #000000;
+    margin-right: 40px;
+}
+
+header button {
+    width: 193px;
+    height: 52px;
+    background: #0057FF;
+    border-radius: 30px;
+    border-width: 0;
+    font: 400 14px 'Oswald';
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 120px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-prime {
+    background-image: url(./img/IMAGE\ 2.svg);
+    background-repeat: no-repeat;
+    width: 540px;
+    height: 590px;
+    margin-left: 120px;
+    margin-top: 169px;
+}
+
+.img-triangle {
+    background-image: url(./img/IMAGE\ 3.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin-left: 66px;
+    margin-bottom: 177px;
+}
+
+.information {
+    margin-left: 140px;
+}
+
+.information h1 {
+    width: 460px;
+    font: 400 40px 'Oswald';
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 134px;
+    margin-right: 178px;
+    margin-bottom: 48px;
+}
+
+.information p {
+    width: 460px;
+    font: 400 15px 'Roboto';
+    color: #000000;
+    margin-bottom: 58px;
+}
+
+.table div {
+    display: flex;
+    flex-direction: row;
+  
+    background: #FFFFFF;
+    width: 498px;
+    border-radius: 0px; 
+    border: 1px solid #E7E7E7;
+    border-radius: 20px;
+}
+
+.table p {    
+    font: 400 16px 'Oswald';
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-plus {
+    background-image: url(./img/PLUS.svg);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
 }
