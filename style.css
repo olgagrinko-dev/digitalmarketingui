@@ -13,6 +13,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 23px;
     padding-bottom: 25px;
 }
@@ -23,7 +24,7 @@ header {
     width: 93px;
     height: 32px;
     margin-left: 120px;
-
+    margin-right: 60px;
 }
 
 .header-nav {
@@ -96,16 +97,17 @@ main {
 
 .table div {
     display: flex;
-    flex-direction: row;
-  
+    justify-content: space-between;
+    align-items: center;
     background: #FFFFFF;
     width: 498px;
-    border-radius: 0px; 
+    border-radius: 0px;
     border: 1px solid #E7E7E7;
     border-radius: 20px;
+    border: #E7E7E7;
 }
 
-.table p {    
+.table p {
     font: 400 16px 'Oswald';
     text-transform: uppercase;
     color: #000000;
@@ -117,6 +119,8 @@ main {
 .img-plus {
     background-image: url(./img/PLUS.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     width: 25px;
     height: 25px;
+    margin-right: 32px;
 }
