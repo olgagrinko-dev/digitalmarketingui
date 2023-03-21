@@ -99,12 +99,10 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #FFFFFF;
     width: 498px;
     border-radius: 0px;
     border: 1px solid #E7E7E7;
-    border-radius: 20px;
-    border: #E7E7E7;
+    border-radius: 20px; 
 }
 
 .table p {

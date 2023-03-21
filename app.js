@@ -7,9 +7,9 @@ const btn = document.querySelector(`button`);
 
 
 btn.addEventListener(`click`, function () {
-    
+
 })
 
-btn.addEventListener(`click`, function (event) {    
+btn.addEventListener(`click`, function (event) {
     p.textContent = event.target.textContent;
 })
