@@ -117,8 +117,8 @@ main {
 .img-plus {
     background-image: url(./img/PLUS.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    /* background-size: contain; */
     width: 25px;
     height: 25px;
-    margin-right: 32px;
+    /* padding-left: 35px;   */
 }
