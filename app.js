@@ -3,13 +3,28 @@
 // Добавить динамику в выпадающий список.
 // Добавить анимацию (любую, на нативном css)
 
-const btn = document.querySelector(`button`);
+class Client {
+    constructor() {
+        this.getMoreInfo()
+    }
 
+    getMoreInfo() {
+        const plus = document.querySelectorAll('.img-plus');
+        const information = document.querySelectorAll('.information');
 
-btn.addEventListener(`click`, function () {
+        for (let i = 0; i < plus.length; i++) {
+            plus[i].addEventListener('click', () => {
+                if (information[i].hidden) {
+                    information[i].hidden = false;
+                    plus[i].style = `background-image: url(./assets\/minus.svg); margin-top:40px;`;
+                } else {
+                    information[i].hidden = true;
+                    plus[i].style = `background-image: url(./assets\/image (3).svg);`;
+                }
 
-})
+            });
+        }
+    }
+}
 
-btn.addEventListener(`click`, function (event) {
-    p.textContent = event.target.textContent;
-})
+const client = new Client()
