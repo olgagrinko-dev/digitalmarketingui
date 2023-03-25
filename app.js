@@ -21,7 +21,6 @@ class Client {
                     information[i].hidden = true;
                     plus[i].style = `background-image: url(./assets\/image (3).svg);`;
                 }
-
             });
         }
     }
