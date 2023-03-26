@@ -26,4 +26,4 @@ class Client {
     }
 }
 
-const client = new Client()
+const client = new Client();
