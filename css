@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: "Oswald", "Roboto";
+  font-weight: 400;
+}
+
+body main .rigth-side .info .support .img-plus,
+body main .rigth-side .info .hosting .img-plus,
+body main .rigth-side .info .questions .img-plus,
+body main .rigth-side .info .policy .img-plus {
+  position: absolute;
+  background-image: url(./assets/image\ \(3\).svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  margin: 32px auto auto 350px;
+}
+
+body main .rigth-side .info .support p,
+body main .rigth-side .info .hosting p,
+body main .rigth-side .info .questions p,
+body main .rigth-side .info .policy p {
+  font: 400 16px "Oswald";
+  text-transform: uppercase;
+  color: #000000;
+  margin: 30px 80px 30px 40px;
+}
+
+body {
+  background-color: #F5F5F5;
+  margin: auto;
+  max-width: 1120px;
+}
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  width: 1120px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  padding: 15px 0;
+  background-color: #F5F5F5;
+  z-index: 1;
+}
+body header .img-logo {
+  background-image: url(./assets/image\ \(2\).svg);
+  width: 95px;
+  height: 35px;
+  background-repeat: no-repeat;
+}
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 40px;
+}
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body header nav ul li {
+  list-style-type: none;
+}
+body header nav ul li:not(:last-child) {
+  margin-right: 35px;
+}
+body header nav ul li:hover {
+  color: #0057FF;
+}
+body header .logo-btn {
+  background: #0057FF;
+  border-radius: 30px;
+  width: 150px;
+  height: 35px;
+  font: 400 14px "Oswald";
+  padding-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body main .left-side {
+  width: 50%;
+}
+body main .left-side .left-side-img {
+  background-image: url(./assets/image\ \(1\).svg);
+  width: 550px;
+  height: 600px;
+  background-repeat: no-repeat;
+  margin: 100px auto auto auto;
+}
+body main .rigth-side {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+body main .rigth-side h1 {
+  font: 400 40px "Oswald";
+  text-transform: uppercase;
+  color: #000000;
+  margin: 100px 0 0 120px;
+}
+body main .rigth-side p {
+  font: 400 15px "Roboto";
+  color: #000000;
+  margin: 50px 0 0 120px;
+}
+body main .rigth-side .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #FFFFFF;
+  border: 1px solid #E7E7E7;
+  border-radius: 20px;
+  margin: 50px 0 30px 120px;
+}
+body main .rigth-side .info .support,
+body main .rigth-side .info .hosting,
+body main .rigth-side .info .questions,
+body main .rigth-side .info .policy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+body main .rigth-side .info .support .information,
+body main .rigth-side .info .hosting .information,
+body main .rigth-side .info .questions .information,
+body main .rigth-side .info .policy .information {
+  margin: 0 80px 0 40px;
+}
+body main .rigth-side .info .support .column-inf,
+body main .rigth-side .info .hosting .column-inf,
+body main .rigth-side .info .questions .column-inf,
+body main .rigth-side .info .policy .column-inf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
