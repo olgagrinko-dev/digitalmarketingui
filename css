@@ -65,20 +65,24 @@ body header nav {
           justify-content: space-between;
   margin-left: 40px;
 }
+
 body header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 body header nav ul li {
   list-style-type: none;
 }
 body header nav ul li:not(:last-child) {
   margin-right: 35px;
 }
+
 body header nav ul li:hover {
   color: #0057FF;
 }
+
 body header .logo-btn {
   background: #0057FF;
   border-radius: 30px;
@@ -90,14 +94,17 @@ body header .logo-btn {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
 body main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 body main .left-side {
   width: 50%;
 }
+
 body main .left-side .left-side-img {
   background-image: url(./assets/image\ \(1\).svg);
   width: 550px;
@@ -105,6 +112,7 @@ body main .left-side .left-side-img {
   background-repeat: no-repeat;
   margin: 100px auto auto auto;
 }
+
 body main .rigth-side {
   width: 50%;
   display: -webkit-box;
@@ -115,12 +123,14 @@ body main .rigth-side {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
 body main .rigth-side h1 {
   font: 400 40px "Oswald";
   text-transform: uppercase;
   color: #000000;
   margin: 100px 0 0 120px;
 }
+
 body main .rigth-side p {
   font: 400 15px "Roboto";
   color: #000000;
