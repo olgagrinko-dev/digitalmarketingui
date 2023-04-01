@@ -136,6 +136,7 @@ body main .rigth-side p {
   color: #000000;
   margin: 50px 0 0 120px;
 }
+
 body main .rigth-side .info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -149,6 +150,7 @@ body main .rigth-side .info {
   border-radius: 20px;
   margin: 50px 0 30px 120px;
 }
+
 body main .rigth-side .info .support,
 body main .rigth-side .info .hosting,
 body main .rigth-side .info .questions,
@@ -161,12 +163,14 @@ body main .rigth-side .info .policy {
       -ms-flex-direction: row;
           flex-direction: row;
 }
+
 body main .rigth-side .info .support .information,
 body main .rigth-side .info .hosting .information,
 body main .rigth-side .info .questions .information,
 body main .rigth-side .info .policy .information {
   margin: 0 80px 0 40px;
 }
+
 body main .rigth-side .info .support .column-inf,
 body main .rigth-side .info .hosting .column-inf,
 body main .rigth-side .info .questions .column-inf,
